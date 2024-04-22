@@ -1,0 +1,45 @@
+*{
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+body{
+    background-color:#060826;
+}
+header{
+    background-color: white;/*muda a cor de fundo do elemento desejado*/
+    padding-bottom: 50px;
+    display: flex;/*Dar novas opções de estilização no CSS*/
+    flex-direction: column;/*Opção para deixar todos os elemntos diferentes um embaixo do outro*/
+    align-items: center;/*Alinhar o elemento para horizontal (centralizar)*/
+    justify-content: center;/*Alinhar o elemento para vertical*/
+    height: 233px;/*Altura do elemento*/
+    border-radius: 27px;
+}
+header img{
+    width: 150px;
+    border: 5px solid blue;
+    border-radius: 27px;
+}
+header nav ul li{
+    color: black;/*muda a cor do text*/
+    text-transform: uppercase;
+    display: inline;
+    padding: 20px 50px;/*Aumenta a hit box do elemento*/
+    margin: 30px;
+}
+header nav ul li:hover{
+    background-color: black;
+    color: white;/*muda a cor do text*/
+    transition: 1.2s;/*Tempo para a ação acontecer*/
+    padding: 20px 50px;/*aumenta a hit box do elemento*/
+
+}
+
+header nav{
+    padding: 35px;
+}
+header nav ul a{
+    text-decoration: none;
+}
