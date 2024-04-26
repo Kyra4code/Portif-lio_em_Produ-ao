@@ -32,9 +32,9 @@ header nav ul li{
 header nav ul li:hover{
     background-color: black;
     color: white;/*muda a cor do text*/
-    transition: 1.2s;/*Tempo para a ação acontecer*/
+    transition: 1.5s;/*Tempo para a ação acontecer*/
     padding: 20px 50px;/*aumenta a hit box do elemento*/
-
+    border-radius: 27px;
 }
 
 header nav{
