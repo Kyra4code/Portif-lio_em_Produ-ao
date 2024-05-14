@@ -56,6 +56,7 @@ header nav ul li{
     display: inline;
     padding: 20px 50px;/*Aumenta a hit box do elemento ou diminue*/
     margin: 30px;
+    border-radius: 50px;
 }
 header nav ul li:hover{
     background-color: black;
@@ -73,4 +74,5 @@ header nav ul a{
 }
 .accordion{
     color: black;
+    padding: 30px, 80px;
 }
