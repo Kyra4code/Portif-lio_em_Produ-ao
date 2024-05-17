@@ -5,6 +5,9 @@
 .div-primaria img{
     width: 250px;
 }
+.div-primaria .imgg{
+    padding: 360px;
+}
 
 main h1{
     text-align: center;
@@ -12,11 +15,11 @@ main h1{
     padding: 25px;
 }
 
-.coco p{
+.divdadiv p{
     padding: 5px 50px 10px 5px;
 }
 
-.coco{
+.divdadiv{
     color: white;
     padding: 25px;
     text-align: center;
@@ -75,4 +78,8 @@ header nav ul a{
 .accordion{
     color: black;
     padding: 30px, 80px;
+}
+.footerum{
+    padding: 140px;   
+    background-color: aqua;
 }
