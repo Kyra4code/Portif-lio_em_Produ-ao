@@ -79,7 +79,21 @@ header nav ul a{
     color: black;
     padding: 30px, 80px;
 }
-.footerum{
+.rodape{
     padding: 140px;   
-    background-color: aqua;
+    background-color: green;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    margin: 40px;
+    text-decoration: none;
+}
+.icons a i{
+    font-size: 30px;
 }
