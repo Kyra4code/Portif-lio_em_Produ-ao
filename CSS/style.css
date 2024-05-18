@@ -1,12 +1,6 @@
-.div-primaria{
+.div-central{
     display: flex;
-}
-
-.div-primaria img{
-    width: 250px;
-}
-.div-primaria .imgg{
-    padding: 360px;
+    justify-content: center;
 }
 
 main h1{
@@ -80,7 +74,7 @@ header nav ul a{
     padding: 30px, 80px;
 }
 .rodape{
-    padding: 140px;   
+    padding: 70px;   
     background-color: green;
 }
 .icons{
@@ -96,4 +90,7 @@ header nav ul a{
 }
 .icons a i{
     font-size: 30px;
+}
+.copyright{
+    font-weight: bold;
 }
