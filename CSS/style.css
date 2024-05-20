@@ -32,19 +32,21 @@ main h1{
 body{
     background-color:#060826;
 }
-header{
+.div-up{
     background-color: white;/*muda a cor de fundo do elemento desejado*/
     padding-bottom: 50px;
     display: flex;/*Dar novas opções de estilização no CSS*/
     flex-direction: column;/*Opção para deixar todos os elemntos diferentes um embaixo do outro*/
     align-items: center;/*Alinhar o elemento para horizontal (centralizar)*/
     justify-content: center;/*Alinhar o elemento para vertical*/
-    height: 233px;/*Altura do elemento*/
+    height: 340px;/*Altura do elemento*/
     border-radius: 27px;
 }
-header img{
-    width: 150px;
-    border: 5px solid blue;
+.img-header{
+    margin-top: 40px;
+    height: 300 px;
+    width: 160px;
+    border: 4px solid #060826;
     border-radius: 27px;
 }
 header nav ul li{
@@ -75,7 +77,7 @@ header nav ul a{
 }
 .rodape{
     padding: 70px;   
-    background-color: green;
+    background-color: gray;
 }
 .icons{
     display: flex;
@@ -92,5 +94,7 @@ header nav ul a{
     font-size: 30px;
 }
 .copyright{
+    display: flex;
+    justify-content: end;
     font-weight: bold;
 }
